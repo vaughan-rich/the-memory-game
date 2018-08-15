@@ -6,7 +6,7 @@ A browser-based memory game where you have to match all the pairs of symbols, in
 
 You can play <a href=https://www.richvaughan.co.uk/pages/memorygame/play.html>here</a>. Enjoy! 
 
-![Screenshot](screen.png)
+![Screenshot](memoryscreen.png)
 
 It should work in most modern desktop and mobile browsers.
 
