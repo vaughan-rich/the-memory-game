@@ -1,0 +1,136 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: #334045;
+}
+
+/* Media queries incase I need:*/
+
+/* Small screens (default) */
+/*html { font-size: 100%; }*/
+
+/* Medium screens (640px) */
+/*@media (min-width: 40rem) { 
+  html { font-size: 112%; }
+}*/
+
+/* Large screens (1024px) */
+/*@media (min-width: 64rem) { 
+  html { font-size: 120%; }
+}*/
+
+body {
+    height: 100vh;
+    background-color: #e6f3f7;
+    padding: 5%;
+    margin-bottom:5%;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: .25em;
+    text-align: center;
+}
+
+#lives {
+    font-size: 1.5em;
+    display: none;
+    clear: both;
+    margin-top: 1.5em;
+    margin-bottom: -1em;
+}
+
+#footer {
+    margin-top:5em;
+    display: block;
+    font-size:.3em;
+}
+
+#byrichardvaughan {
+    text-align: center !important;
+    font-size:1em;
+}
+
+#byrichardvaughan p{
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+
+.memorygame {
+    margin-top: 2em !important;
+    
+    margin: 0 auto;
+    width: 100%;
+    max-width: 38rem;
+    max-height: 38rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: 2px solid gray;
+    border-radius: 1%;
+    
+    background-color: #c5e3ed;
+    perspective: 1000px;
+    padding: 1%;
+    
+    margin-bottom: 1em !important;
+}
+
+.memorycard {
+    display: block;
+    float: none;
+    width: 12%;
+    /*border: 2px solid pink;*/
+    position: relative;
+    
+    transform: scale(.9);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: transform 1.5s;
+    
+    padding: 5%;
+    margin: 2% !important;
+    
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.memorycard.flip {
+    transform: rotateY(180deg);
+}
+
+.back-face, .front-face {
+    /*border: 2px solid yellow;*/
+    position: absolute;
+    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
+
+img {
+    border: .5px dashed black;
+    border-radius: 2%;
+    padding: 10%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.memorycard:active {
+    transform: scale(.9);
+    transform-origin: center;
+    transition: transform 1.5s;
+}
