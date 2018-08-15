@@ -1,6 +1,6 @@
 ## The Memory Game 🧠
 
-A browser-based game to test your memory.
+A javascript browser game to test your memory.
 
 ## How to Play
 
@@ -10,8 +10,10 @@ Match all of the pairs of symbols in the least number of guesses. You can play <
 
 It should work in most modern desktop and mobile browsers.
 
-## Credit for Free Icon Set Used:
-https://tympanus.net/codrops/2016/01/29/freebie-science-line-icons/
+## Credits:
+* This project is an adaptation of the script shown in <a href="https://www.youtube.com/watch?v=ZniVgo8U7ek">this</a> YouTube tutorial.
+* It uses Nicholas Gallagher's <a href="http://necolas.github.io/normalize.css/">normalize.css</a> for better cross-browser compatibility.
+* It uses <a href="https://tympanus.net/codrops/2016/01/29/freebie-science-line-icons/">this</a> free icon set.
 
 ## To Add in Future Versions:
 * Add sound effects / music
