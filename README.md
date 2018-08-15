@@ -1,6 +1,6 @@
 ## The Memory Game 🧠
 
-A javascript browser game to test your memory.
+A browser-based game to test your memory, written in javascript.
 
 ## How to Play
 
