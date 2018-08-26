@@ -17,10 +17,10 @@ It should work in most modern desktop and mobile browsers.
 
 ## To Add in Future Versions:
 * Implement a workaround to prevent players from cheating by looking in DevTools and identifying cards.
-* Add sound effects / music
-* Add a timer for players to track their progress
-* Implement a method for storing a player's best score/time (or a leaderboard)
-* Fix any bugs
+* Add sound effects / music.
+* Add a timer for players to track their progress.
+* Implement a method for storing a player's best score/time (or a leaderboard).
+* Fix any bugs.
 
 
 
