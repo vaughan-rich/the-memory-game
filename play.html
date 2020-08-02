@@ -2,20 +2,38 @@
 <html lang="en">
     
 <head>
+    
+    <!-- ANALYTICS STUFF: -->
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKNWNZG');</script>
+<!-- End Google Tag Manager -->
+    <!-- ANALYTICS END -->    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset='utf-8'>
     
     <title>the memory game 🧠</title>
     
     <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="memorygame.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     
 </head>
+
     
 <body>
-    <h1>the memory game</h1>
-    <p1 id="byrichardvaughan">by <a href="https://www.richvaughan.co.uk">richard vaughan</a></p1>
+    <!-- ANALYTICS FALLBACK -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKNWNZG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- ANALYTICS FALLBACK END -->
+    
+    <h1><a href="https://github.com/vaughan-rich/the-memory-game">the memory game</a></h1>
+    <p1 id="byrichardvaughan">by <a href="../../index.html">richard vaughan</a></p1>
     
     <p1 id="lives">Lives: 🧠 🧠 🧠</p1>
     
@@ -193,7 +211,15 @@
     <p1 id="instructions">match the symbols. number of pairs: 0/21. number of guesses: 0.</p1>
     
     <p1 id="footer"><a href="https://tympanus.net/codrops/2016/01/29/freebie-science-line-icons/">Icon Set</a></p1>
+    
+        <div id="cookiePopup">
+    <div id="cookiePopupContents">
+        <p id="copy">This site uses analytics cookies to measure traffic volume. That's all. Honest. Please accept or decline below:</p>
+        <button id = "accept" onclick="acceptCookies()" class="btn draw-border">Accept</button><button id="decline" onclick="declineCookies()" class="btn draw-border">Decline</button>
+    </div>
+  </div>
 
 <script src="memorygame.js"></script>
+<script onload="previousAcceptance();" src="../../scripts/cookies.js"></script>
 </body>
 </html>

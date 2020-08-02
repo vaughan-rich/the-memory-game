@@ -28,6 +28,7 @@ body {
     margin-bottom:5%;
     text-align: center;
     width: 100%;
+
 }
 
 h1 {
@@ -133,4 +134,38 @@ img {
     transform: scale(.9);
     transform-origin: center;
     transition: transform 1.5s;
+}
+
+#cookiePopup {
+    position:fixed;
+    top:0;
+    text-align:left;
+    height:100vh;
+    width:auto;
+    display:block;
+    z-index: 100;
+    background-color: #e6f3f7;
+}
+
+#cookiePopupContents {
+    height:100vh;
+    width:auto;
+    z-index:100;
+    padding: auto;
+}
+
+button {
+    margin:1rem;
+}
+
+#copy {
+
+}
+
+#accept {
+    font-size:1em !important;
+}
+
+#decline {
+    font-size:1em !important;
 }
