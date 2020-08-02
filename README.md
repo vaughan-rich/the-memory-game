@@ -11,6 +11,7 @@ Match all of the pairs of symbols in the least number of guesses. You can play <
 It should work in most modern desktop and mobile browsers.
 
 ## To Add in Future Versions:
+* DataLayer pushes for analytics (game completions, custom dimensions for scores, etc)
 * Implement a workaround to prevent players from cheating by looking in DevTools and identifying cards.
 * Add sound effects / music.
 * Add a timer for players to track their progress.
